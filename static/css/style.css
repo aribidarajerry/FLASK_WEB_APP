@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F2F2;
+    position: sticky;
+    top: 0;
+}
+header {
+    padding: 1em;
+}
+span {
+    padding: 1.2em 0.3em;
+}
+a {
+    text-decoration: none;
+}
+.form {
+    display: flex;
+    align-items: center;
+}
+form, button {
+    margin: 1.5em;
+}
+.landing {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    min-height: 90vh;
+    width: 500px;
+}
+.hero {
+    font-size: 4em;
+    line-height: 2em;
+    font-family: fantasy;
+}
